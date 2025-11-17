@@ -1,0 +1,18 @@
+body {
+  background: rgb(255, 153, 204);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font: Helvetica;
+}
+
+#gameCanvas {
+  width: 800px;
+  height: 600px;
+  background: black;
+  border: 5px solid white;
+  display: block;
+  image-rendering: pixelated;
+}
